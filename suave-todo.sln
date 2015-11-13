@@ -1,0 +1,33 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.23107.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{5FFA5F30-B343-468E-84BB-183BEA0E45DB}"
+	ProjectSection(SolutionItems) = preProject
+		app.fsx = app.fsx
+		static\app.js = static\app.js
+		build.local.fsx = build.local.fsx
+		dependencies.cmd = dependencies.cmd
+		static\index.html = static\index.html
+		local.cmd = local.cmd
+		paket.dependencies = paket.dependencies
+		paket.lock = paket.lock
+		static\style.css = static\style.css
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "static", "static", "{6927111F-A13A-498B-81CF-E24EBEE3F93E}"
+	ProjectSection(SolutionItems) = preProject
+		static\app.js = static\app.js
+		static\index.html = static\index.html
+		static\style.css = static\style.css
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{6927111F-A13A-498B-81CF-E24EBEE3F93E} = {5FFA5F30-B343-468E-84BB-183BEA0E45DB}
+	EndGlobalSection
+EndGlobal

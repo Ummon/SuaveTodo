@@ -1,0 +1,8 @@
+source https://nuget.org/api/v2
+
+nuget FAKE
+nuget Npgsql
+nuget Suave
+nuget FSharp.Compiler.Service
+nuget FSharp.Data
+nuget FSharp.Data.TypeProviders

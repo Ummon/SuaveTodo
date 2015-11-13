@@ -1,0 +1,6 @@
+/.fake/
+/.paket/
+/.vs/
+/packages/
+/db-password.txt
+/packet.lock

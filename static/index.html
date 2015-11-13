@@ -1,0 +1,19 @@
+﻿<html>
+<head>
+    <title>Suave TODO</title>
+    <link href="/static/style.css" type="text/css" rel="stylesheet">
+    <link href='//fonts.googleapis.com/css?family=Source+Sans+Pro:400,700' rel='stylesheet' type='text/css'>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+<body ng-app="Todo" ng-cloak>
+    <div ng-controller="TodoList as todo" id="container">   
+        <h1>Todo</h1>
+        <ul>
+            <li><input type="text" ng-model="todo.text" placeholder="New todo item.."> <a href="#" ng-click="todo.create()">[ADD]</a></li>
+            <li ng-repeat="item in todo.todos"><a href="#" ng-click="todo.remove(item.id)">[DONE]</a> {{ item.text }}</li>
+        </ul>
+    </div>
+   <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.4.7/angular.min.js"></script>
+   <script src="/static/app.js"></script>
+</body>
+</html>
